@@ -23,7 +23,7 @@ const Game: React.FC = () => {
         <h4 className="text-3xl text-white px-20">
           Selecione os temas que deseja jogar!
         </h4>
-        <div className="justify-around gap-4 flex flex-wrap mt-20">
+        <div className="justify-around  gap-4 flex flex-wrap mt-20">
           {MOCK_TEMAS.map((tema) => (
             <ButtonTheme
               key={tema}
