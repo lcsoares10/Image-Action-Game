@@ -7,7 +7,7 @@ describe("ButtonTheme", () => {
 
     const button = screen.getByRole("button");
     expect(button).toHaveClass(
-      "border-2 border-[#800080]  text-white font-bold py-6 px-16 rounded"
+      "border-2 border-[#800080]  text-white font-bold py-6 w-80 px-4 rounded"
     );
   });
 
